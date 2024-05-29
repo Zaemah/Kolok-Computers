@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
         message
     };
 
-    fetch('https://formsubmit.co/kolokcomputers@gmail.com', {
+    fetch('https://formsubmit.co/khumbun835@gmail.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -23,6 +23,9 @@ form.addEventListener('submit', (e) => {
         body: JSON.stringify(formData)
     })
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => {
+        console.log(data);
+        alert("Message sent successfully!");
+    })
     .catch(error => console.error(error));
 });
