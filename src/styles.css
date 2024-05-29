@@ -133,8 +133,9 @@ li{
  .introduction li{
     list-style: circle;
  }
- .intoduction h2{
+ .introz{
     font-size: 18px;
+    text-align: center;
  }
  h1{
     font-size: 30px;
