@@ -520,7 +520,31 @@ input[type="submit"]:hover {
     margin: 0 auto;
 }
 
-
+.gallery {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    justify-content: center;
+   margin: 0 auto;
+  }
+  
+  .gallery img {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 2px 5px rgba(13, 41, 199, 0.3);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .gallery img {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .gallery img {
+      width: 100%;
+    }
+  }
 footer {
     background: black;
     color: white;
