@@ -536,7 +536,8 @@ input[type="submit"]:hover {
   
   @media only screen and (max-width: 600px) {
     .gallery img {
-      width: 50%;
+      width: 200px;
+      height: auto;
     }
   }
   
