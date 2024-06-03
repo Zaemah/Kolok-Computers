@@ -410,8 +410,8 @@ li{
 
     iframe{
         
-        width: 400px;
-        height: 400px;
+        width: 250px;
+        height: auto;
         box-shadow: 0 2px 5px rgba(236, 237, 238, 0.3);
     
     }
